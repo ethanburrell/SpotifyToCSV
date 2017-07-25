@@ -17,3 +17,19 @@ should do the trick to install it.
 
 
 <h1> Getting the playlist URL </h1>
+First find the share button, here it is positioned in the top right corner.
+<img src="https://github.com/ethanburrell/SpotifyToCSV/blob/master/Screenshots/SharePlaylist.png?raw=true" />
+Then select the embed option (on the far right).
+<img src="https://github.com/ethanburrell/SpotifyToCSV/blob/master/Screenshots/EmbedPlaylist.png?raw=true" />
+Then the emebed code should be copied to your clipboard
+<img src="https://raw.githubusercontent.com/ethanburrell/SpotifyToCSV/master/Screenshots/CopiedToClipboard.png" />
+<br><br>
+This is what was on my clipboard:
+<code>
+<iframe src="https://open.spotify.com/embed/user/indiefolkradio/playlist/37vt9W6xt5jsud9iaIMzeh"
+              width="300" height="380" frameborder="0" allowtransparency="true"></iframe>
+</code>
+The URL you want to use is the source for the iFrame. Use the URL:
+<code>
+https://open.spotify.com/embed/user/indiefolkradio/playlist/37vt9W6xt5jsud9iaIMzeh
+</code>
